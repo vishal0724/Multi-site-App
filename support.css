@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #003332;
+}
+h1{
+    position: relative;
+    top: 230px;
+    width: 100%;
+    text-align: center;
+    background: -webkit-linear-gradient(45deg, blue, #00ff95 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+h1:hover{
+    box-shadow: 0 0 20px aqua;
+}
+input{
+    position: absolute;
+    right: 18px;
+    top: 20px;
+    background-image: url(./searchicon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 8px;
+    border:1px solid;
+    border-radius: 18px;
+    width: 15% ;
+    background-color: wheat; 
+    box-shadow: 5px -4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    transition: 0.7s;
+}
+input[type="text"]{
+    outline: none;
+    text-align: right;
+    font-size: 110%;
+}
+input:focus{
+    width: 30%;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 0 15px aqua;
+}
+ul{
+   position: relative;
+   top: 240px;
+   text-align: center;
+   list-style-type: none;
+}
+ul li{
+    display: inline-flex;
+    text-align: center;
+}
+a{
+    color: white;
+    font-size: 180%;
+    border: 10px solid rgb(5, 71, 63);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 100%;
+    margin-right: 30px;
+    margin-left: 10px;
+    padding: 8px 10px;
+}
+ul li a:hover{
+    color: lime;
+    box-shadow: 0 0 25px lime; 
+}
+ul li a:active{
+    color: aqua;
+    border: 10px solid rgb(5, 71, 63);
+    z-index: 1;
+}
