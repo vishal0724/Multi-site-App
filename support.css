@@ -33,7 +33,6 @@ input{
     border-radius: 18px;
     width: 15% ;
     background-color: wheat; 
-    box-shadow: 5px -4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
     transition: 0.7s;
 }
 input[type="text"]{
@@ -45,7 +44,7 @@ input:focus{
     width: 30%;
     text-align: center;
     transition: 0.3s;
-    box-shadow: 0 0 15px aqua;
+    box-shadow: 0 0 15px wheat;
 }
 ul{
    position: relative;
